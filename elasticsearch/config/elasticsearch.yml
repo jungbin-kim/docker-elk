@@ -25,3 +25,17 @@ searchguard.ssl.transport.enforce_hostname_verification: false
 
 searchguard.authcz.admin_dn:
   - "CN=kirk,OU=client,O=client,l=tEst,C=De"
+
+## X-Pack
+#
+xpack.monitoring.enabled: true
+xpack.security.enabled: false
+xpack.graph.enabled: false
+xpack.ml.enabled: false
+xpack.watcher.enabled: false
+
+xpack.monitoring.exporters:
+  id1:
+    type: http
+    auth.username: admin
+    auth.password: admin
