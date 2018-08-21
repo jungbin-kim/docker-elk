@@ -23,6 +23,7 @@ sg_readall:
   readonly: true
   backendroles:
     - readall
+    - sg_anonymous_backendrole
 
 sg_manage_snapshots:
   readonly: true

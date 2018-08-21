@@ -1,6 +1,7 @@
 searchguard:
   dynamic:
     http:
+      anonymous_auth_enabled: true
       xff:
         enabled: false
     authc:
