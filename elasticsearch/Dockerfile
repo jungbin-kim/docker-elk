@@ -5,6 +5,7 @@ FROM docker.elastic.co/elasticsearch/elasticsearch:${ELK_VERSION}
 
 COPY config/sg/ config/sg/
 COPY bin/ bin/
+COPY config/jvm.options config/jvm.options
 
 # Search Guard plugin
 # https://docs.search-guard.com/latest/search-guard-versions
